@@ -1,101 +1,95 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-  }
-  
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  }
-  
-  .jumbotron {
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
-  
-  .description{
-    white-space: pre-wrap;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;
-    display: flex;
-    margin-right: -15px;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
 
-  .col-auto  {
-    width: 10%;
-    background-color: rgb(11, 78, 136);
-    white-space: pre-wrap;
-    height: 50px;
-    border-top: 1px solid lightgray;
-  }
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
 
-  .col-auto:hover {
-    background-color: yellow;
-    cursor: pointer
-    
-  }
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
 
-  .mr-md-3 {
-    width: max-content;
-    height: 50px;
-    white-space: pre-wrap;
-    border-top: 2px dotted black;
-  }
+.description{
+  white-space: pre-wrap;
+}
 
-  .col-10 {
-    width: auto;
-    background-color: lightgrey;
-    height: 50px;
-    border-top: 1px solid darkblue;
-    white-space: pre-wrap;
-  }
+.time_block{
+  text-align: center;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+  margin-right: -15px;
+}
+
+/* .col-md-1  { 
+  background-color: rgb(11, 78, 136);
+  white-space: pre-wrap;
+  border-top: 1px solid lightgray;
+  height: 100%;
+  width: 100%; 
+}
+
+.col-auto:hover {
+  background-color: yellow;
+  cursor: pointer
   
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
+}
+
+.col-10 {
+  width: auto;
+  background-color: lightgrey;
+  height: 50px;
+  border-top: 1px solid darkblue;
+  white-space: pre-wrap;
+} */
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past_info {
+  color: black;
+}
+
+.present_info {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future_info {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
   
-  #past_info {
-    color: black;
-  }
-  
-  #present_info {
-    background-color: #ff6961;
-    color: white;
-  }
-  
-  #future_info {
-    background-color: #77dd77;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
