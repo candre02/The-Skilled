@@ -1,3 +1,14 @@
+function getDate() {
+    var todaydate = newDate();
+    var day = todaydate.getDate();
+    var month = todaydate.getMonth() + 1;
+    var year = todaydate.getFullYear();
+    var datestring = day + "/" + month + "/" + year;
+    console.log(datestring)
+}
+
+
+
 
 $(document).ready(function(){
 
