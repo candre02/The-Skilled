@@ -13,6 +13,7 @@ daily planner, able to set and save past, present, future content.
 
 
 ## WEBSITE
-
+https://github.com/candre02/The-Skilled.git
 
 ## REPOSITORY
+https://candre02.github.io/The-Skilled/
